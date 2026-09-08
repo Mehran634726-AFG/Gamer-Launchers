@@ -1,31 +1,10 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.application' version '8.5.2' apply false
 }
 
-android {
-    namespace 'com.gamer.launcher'
-    compileSdk 35
-
-    defaultConfig {
-        applicationId "com.gamer.launcher"
-        minSdk 29
-        targetSdk 29
-        versionCode 1
-        versionName "1.0"
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    buildTypes {
-        debug {
-            minifyEnabled false
-        }
-
-        release {
-            minifyEnabled false
-        }
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
     }
 }
