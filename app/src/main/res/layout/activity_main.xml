@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030608"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="GAMER"
+            android:textColor="#00FFFF"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="CYBER PERFORMANCE SYSTEM"
+            android:textColor="#7DFFFF"
+            android:textSize="14sp"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="SYSTEM ONLINE"
+            android:textColor="#00FF88"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hudStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="22dp"
+            android:background="#10191D"
+            android:text="RAM -- / -- MB&#10;BATTERY --%&#10;PROFILE BALANCED"
+            android:textColor="#00FFFF"
+            android:textSize="19sp"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/boostButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="30dp"
+            android:text="ACTIVATE TURBO MODE"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00FFFF" />
+
+        <Button
+            android:id="@+id/appDrawerButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:text="OPEN APP DRAWER"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#152228" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="XIAOMI MI 10T PRO  •  ANDROID 10"
+            android:textColor="#55777D"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</ScrollView>
